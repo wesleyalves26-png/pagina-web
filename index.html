@@ -1,23 +1,20 @@
-<!-- Agrupamos todo o post dentro da tag semântica <article> -->
-<article class="card-post">
-  
-  <!-- 1. Imagem no topo do card -->
+<!-- Post principal em formato de card -->
+<article id="card-post" class="card-post">
   <img src="sua-imagem.jpg" alt="Descrição da imagem do post" class="card-imagem">
 
-  <!-- 2. Conteúdo textual do post -->
   <div class="card-conteudo">
     <small class="card-data">Publicado em 28 de Outubro</small>
-    
-    <h2>Título Impactante do Seu Novo Post</h2>
-    
-    <p>Este é o texto do seu post reorganizado. Ao colocar a imagem no topo e a data antes do título, a leitura ganha outro ritmo!</p>
-    
-    <!-- 3. Seção de reações no rodapé do card -->
+    <h2>Título do Novo Post</h2>
+    <p>Este post agora reage às interações trocando a cor de fundo dinamicamente!</p>
+
+    <!-- Botões de Reação -->
     <div class="card-reações">
       <button class="btn-reacao">❤️ <span class="contador">0</span></button>
       <button class="btn-reacao">🔥 <span class="contador">0</span></button>
       <button class="btn-reacao">👏 <span class="contador">0</span></button>
     </div>
-  </div>
 
+    <!-- Botão para Mudar o Fundo -->
+    <button id="btn-fundo" class="btn-fundo">🎨 Alternar Fundo do Card</button>
+  </div>
 </article>
