@@ -1,1 +1,34 @@
+/* Estilo do container do card */
+.card-post {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden; /* Garante que a imagem respeite as bordas arredondadas */
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 
+/* Ajuste da imagem para cobrir a largura do card */
+.card-imagem {
+  width: 100%;
+  height: 220px;
+  object-fit: cover; /* Mantém a proporção sem distorcer a imagem */
+  display: block;
+}
+
+/* Espaçamento interno do texto */
+.card-conteudo {
+  padding: 20px;
+}
+
+.card-data {
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.card-reações {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
